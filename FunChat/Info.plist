@@ -9,7 +9,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.304995331605-hsriedof7rgb9hrjlo9ceh1q3em6njhh</string>
+				<string>$(FIREBASE_URL)</string>
 			</array>
 		</dict>
 	</array>
