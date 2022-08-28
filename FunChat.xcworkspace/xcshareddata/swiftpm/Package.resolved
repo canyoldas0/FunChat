@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "cybase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/canyoldas0/CYBase",
+      "state" : {
+        "branch" : "main",
+        "revision" : "aecc54bb4ad746df9f2057fa4844d6518962f02c"
+      }
+    }
+  ],
+  "version" : 2
+}
