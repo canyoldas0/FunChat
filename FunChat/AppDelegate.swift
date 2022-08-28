@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
+        let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String
+        print(apiKey)
+        
         window = UIWindow()
         window?.rootViewController = UINavigationController(rootViewController: HomeViewController())
         window?.makeKeyAndVisible()

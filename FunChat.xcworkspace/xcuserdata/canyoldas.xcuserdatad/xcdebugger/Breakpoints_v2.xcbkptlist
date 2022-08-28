@@ -18,38 +18,6 @@
             endingLineNumber = "70"
             landmarkName = "authenticateUser(with:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CADF012B-66D8-4B38-BC1E-94D0853ECAC2 - 7c8be94db8ae29d9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FunChat.LoginManager.authenticateUser(with: __C.FIRAuthCredential) -&gt; ()"
-                  moduleName = "FunChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/canyoldas/Documents/Codebase/Swift/FunChat/FunChat/Managers/Network/LoginManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  uuid = "CADF012B-66D8-4B38-BC1E-94D0853ECAC2 - 7c8be94db8ae29d9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FunChat.LoginManager.authenticateUser(with: __C.FIRAuthCredential) -&gt; ()"
-                  moduleName = "FunChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/canyoldas/Documents/Codebase/Swift/FunChat/FunChat/Managers/Network/LoginManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

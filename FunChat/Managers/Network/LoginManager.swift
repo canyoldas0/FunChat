@@ -12,7 +12,6 @@ import FirebaseCore
 
 typealias LoginHandler = (LoginResult) -> Void
 
-
 enum LoginResult {
     case success
     case failed(Error)

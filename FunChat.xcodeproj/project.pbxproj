@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E6F254828BBFBF200DBC599 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F254728BBFBF200DBC599 /* GoogleService-Info.plist */; };
 		1E8FA64E28B3D50A005F832D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FA64D28B3D50A005F832D /* AppDelegate.swift */; };
 		1E8FA65728B3D50C005F832D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8FA65628B3D50C005F832D /* Assets.xcassets */; };
 		1E8FA65A28B3D50C005F832D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8FA65828B3D50C005F832D /* LaunchScreen.storyboard */; };
 		1E8FA66528B3D5C4005F832D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FA66428B3D5C4005F832D /* HomeViewController.swift */; };
-		1ED38B4728BA437700D1EB2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ED38B4628BA437700D1EB2C /* GoogleService-Info.plist */; };
 		1ED38B4B28BA442200D1EB2C /* SocialButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED38B4A28BA442200D1EB2C /* SocialButtonStack.swift */; };
 		1ED38B4E28BA445100D1EB2C /* CYBase in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED38B4D28BA445100D1EB2C /* CYBase */; };
 		1ED38B5128BA449700D1EB2C /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED38B5028BA449700D1EB2C /* UIControl+Extensions.swift */; };
@@ -21,13 +21,14 @@
 
 /* Begin PBXFileReference section */
 		16B5115A987DC50D076935B1 /* Pods_FunChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6F254728BBFBF200DBC599 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E6F254928BBFC1000DBC599 /* SecretKeys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SecretKeys.xcconfig; sourceTree = "<group>"; };
 		1E8FA64A28B3D50A005F832D /* FunChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8FA64D28B3D50A005F832D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E8FA65628B3D50C005F832D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E8FA65928B3D50C005F832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E8FA65B28B3D50C005F832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E8FA66428B3D5C4005F832D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		1ED38B4628BA437700D1EB2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1ED38B4A28BA442200D1EB2C /* SocialButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonStack.swift; sourceTree = "<group>"; };
 		1ED38B5028BA449700D1EB2C /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
 		1EE2D8BB28BA598300ECAF8B /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
@@ -74,10 +75,11 @@
 				1ED38B4828BA440E00D1EB2C /* Components */,
 				1E8FA66128B3D5A9005F832D /* Modules */,
 				1E8FA64D28B3D50A005F832D /* AppDelegate.swift */,
-				1ED38B4628BA437700D1EB2C /* GoogleService-Info.plist */,
 				1E8FA65628B3D50C005F832D /* Assets.xcassets */,
 				1E8FA65828B3D50C005F832D /* LaunchScreen.storyboard */,
 				1E8FA65B28B3D50C005F832D /* Info.plist */,
+				1E6F254728BBFBF200DBC599 /* GoogleService-Info.plist */,
+				1E6F254928BBFC1000DBC599 /* SecretKeys.xcconfig */,
 			);
 			path = FunChat;
 			sourceTree = "<group>";
@@ -231,7 +233,7 @@
 			files = (
 				1E8FA65A28B3D50C005F832D /* LaunchScreen.storyboard in Resources */,
 				1E8FA65728B3D50C005F832D /* Assets.xcassets in Resources */,
-				1ED38B4728BA437700D1EB2C /* GoogleService-Info.plist in Resources */,
+				1E6F254828BBFBF200DBC599 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +310,7 @@
 /* Begin XCBuildConfiguration section */
 		1E8FA65C28B3D50C005F832D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6F254928BBFC1000DBC599 /* SecretKeys.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -422,7 +425,7 @@
 		};
 		1E8FA65F28B3D50C005F832D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2995A12DDEB25ED22DAF47E /* Pods-FunChat.debug.xcconfig */;
+			baseConfigurationReference = F8E6249B990036914164AEC4 /* Pods-FunChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
