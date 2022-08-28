@@ -1,6 +1,5 @@
-# FunChat
 
-<h1> Currently in progress.
+<h1> Currently in progress. </h1>
 
 Chatting Application with Firebase Authentication and push notifications.
 
