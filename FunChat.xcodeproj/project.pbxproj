@@ -310,6 +310,7 @@
 /* Begin XCBuildConfiguration section */
 		1E8FA65C28B3D50C005F832D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6F254B28BC02DB00DBC599 /* SecretKeys.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
