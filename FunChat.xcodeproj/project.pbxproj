@@ -8,22 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		1E8FA64E28B3D50A005F832D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FA64D28B3D50A005F832D /* AppDelegate.swift */; };
-		1E8FA65028B3D50A005F832D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FA64F28B3D50A005F832D /* SceneDelegate.swift */; };
-		1E8FA65228B3D50A005F832D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FA65128B3D50A005F832D /* ViewController.swift */; };
-		1E8FA65528B3D50A005F832D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8FA65328B3D50A005F832D /* Main.storyboard */; };
 		1E8FA65728B3D50C005F832D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8FA65628B3D50C005F832D /* Assets.xcassets */; };
 		1E8FA65A28B3D50C005F832D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8FA65828B3D50C005F832D /* LaunchScreen.storyboard */; };
+		1E8FA66528B3D5C4005F832D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FA66428B3D5C4005F832D /* HomeViewController.swift */; };
+		1ED38B4728BA437700D1EB2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ED38B4628BA437700D1EB2C /* GoogleService-Info.plist */; };
+		1ED38B4B28BA442200D1EB2C /* SocialButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED38B4A28BA442200D1EB2C /* SocialButtonStack.swift */; };
+		1ED38B4E28BA445100D1EB2C /* CYBase in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED38B4D28BA445100D1EB2C /* CYBase */; };
+		1ED38B5128BA449700D1EB2C /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED38B5028BA449700D1EB2C /* UIControl+Extensions.swift */; };
+		1EE2D8BC28BA598300ECAF8B /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2D8BB28BA598300ECAF8B /* LoginManager.swift */; };
+		6F0C6B88646AC3AE1B42D766 /* Pods_FunChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B5115A987DC50D076935B1 /* Pods_FunChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16B5115A987DC50D076935B1 /* Pods_FunChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8FA64A28B3D50A005F832D /* FunChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8FA64D28B3D50A005F832D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E8FA64F28B3D50A005F832D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E8FA65128B3D50A005F832D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E8FA65428B3D50A005F832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E8FA65628B3D50C005F832D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E8FA65928B3D50C005F832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E8FA65B28B3D50C005F832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8FA66428B3D5C4005F832D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1ED38B4628BA437700D1EB2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1ED38B4A28BA442200D1EB2C /* SocialButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonStack.swift; sourceTree = "<group>"; };
+		1ED38B5028BA449700D1EB2C /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
+		1EE2D8BB28BA598300ECAF8B /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		C2995A12DDEB25ED22DAF47E /* Pods-FunChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChat.debug.xcconfig"; path = "Target Support Files/Pods-FunChat/Pods-FunChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E6249B990036914164AEC4 /* Pods-FunChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChat.release.xcconfig"; path = "Target Support Files/Pods-FunChat/Pods-FunChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED38B4E28BA445100D1EB2C /* CYBase in Frameworks */,
+				6F0C6B88646AC3AE1B42D766 /* Pods_FunChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				1E8FA64C28B3D50A005F832D /* FunChat */,
 				1E8FA64B28B3D50A005F832D /* Products */,
+				4488C163613E63F99DB8B3F3 /* Pods */,
+				B115F76938A7F2B0210094AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,98 @@
 		1E8FA64C28B3D50A005F832D /* FunChat */ = {
 			isa = PBXGroup;
 			children = (
+				1EE2D8B828BA596B00ECAF8B /* Managers */,
+				1ED38B4F28BA447E00D1EB2C /* Extensions */,
+				1ED38B4828BA440E00D1EB2C /* Components */,
+				1E8FA66128B3D5A9005F832D /* Modules */,
 				1E8FA64D28B3D50A005F832D /* AppDelegate.swift */,
-				1E8FA64F28B3D50A005F832D /* SceneDelegate.swift */,
-				1E8FA65128B3D50A005F832D /* ViewController.swift */,
-				1E8FA65328B3D50A005F832D /* Main.storyboard */,
+				1ED38B4628BA437700D1EB2C /* GoogleService-Info.plist */,
 				1E8FA65628B3D50C005F832D /* Assets.xcassets */,
 				1E8FA65828B3D50C005F832D /* LaunchScreen.storyboard */,
 				1E8FA65B28B3D50C005F832D /* Info.plist */,
 			);
 			path = FunChat;
+			sourceTree = "<group>";
+		};
+		1E8FA66128B3D5A9005F832D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1E8FA66328B3D5BC005F832D /* TabBar */,
+				1E8FA66228B3D5AD005F832D /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1E8FA66228B3D5AD005F832D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1E8FA66428B3D5C4005F832D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1E8FA66328B3D5BC005F832D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1ED38B4828BA440E00D1EB2C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1ED38B4928BA441800D1EB2C /* SocialButtonStack */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1ED38B4928BA441800D1EB2C /* SocialButtonStack */ = {
+			isa = PBXGroup;
+			children = (
+				1ED38B4A28BA442200D1EB2C /* SocialButtonStack.swift */,
+			);
+			path = SocialButtonStack;
+			sourceTree = "<group>";
+		};
+		1ED38B4F28BA447E00D1EB2C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1ED38B5028BA449700D1EB2C /* UIControl+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1EE2D8B828BA596B00ECAF8B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2D8BA28BA597D00ECAF8B /* Network */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1EE2D8BA28BA597D00ECAF8B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2D8BB28BA598300ECAF8B /* LoginManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4488C163613E63F99DB8B3F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2995A12DDEB25ED22DAF47E /* Pods-FunChat.debug.xcconfig */,
+				F8E6249B990036914164AEC4 /* Pods-FunChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B115F76938A7F2B0210094AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16B5115A987DC50D076935B1 /* Pods_FunChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +170,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E8FA65E28B3D50C005F832D /* Build configuration list for PBXNativeTarget "FunChat" */;
 			buildPhases = (
+				92CAAA5360BE07EB29A3A322 /* [CP] Check Pods Manifest.lock */,
 				1E8FA64628B3D50A005F832D /* Sources */,
 				1E8FA64728B3D50A005F832D /* Frameworks */,
 				1E8FA64828B3D50A005F832D /* Resources */,
+				3B63BCAF57C7167D06CA3679 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FunChat;
+			packageProductDependencies = (
+				1ED38B4D28BA445100D1EB2C /* CYBase */,
+			);
 			productName = FunChat;
 			productReference = 1E8FA64A28B3D50A005F832D /* FunChat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +212,9 @@
 				Base,
 			);
 			mainGroup = 1E8FA64128B3D50A005F832D;
+			packageReferences = (
+				1ED38B4C28BA445100D1EB2C /* XCRemoteSwiftPackageReference "CYBase" */,
+			);
 			productRefGroup = 1E8FA64B28B3D50A005F832D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +231,70 @@
 			files = (
 				1E8FA65A28B3D50C005F832D /* LaunchScreen.storyboard in Resources */,
 				1E8FA65728B3D50C005F832D /* Assets.xcassets in Resources */,
-				1E8FA65528B3D50A005F832D /* Main.storyboard in Resources */,
+				1ED38B4728BA437700D1EB2C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B63BCAF57C7167D06CA3679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunChat/Pods-FunChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunChat/Pods-FunChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunChat/Pods-FunChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CAAA5360BE07EB29A3A322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E8FA64628B3D50A005F832D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E8FA65228B3D50A005F832D /* ViewController.swift in Sources */,
+				1EE2D8BC28BA598300ECAF8B /* LoginManager.swift in Sources */,
 				1E8FA64E28B3D50A005F832D /* AppDelegate.swift in Sources */,
-				1E8FA65028B3D50A005F832D /* SceneDelegate.swift in Sources */,
+				1E8FA66528B3D5C4005F832D /* HomeViewController.swift in Sources */,
+				1ED38B4B28BA442200D1EB2C /* SocialButtonStack.swift in Sources */,
+				1ED38B5128BA449700D1EB2C /* UIControl+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E8FA65328B3D50A005F832D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E8FA65428B3D50A005F832D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E8FA65828B3D50C005F832D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +422,7 @@
 		};
 		1E8FA65F28B3D50C005F832D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2995A12DDEB25ED22DAF47E /* Pods-FunChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +433,9 @@
 				INFOPLIST_FILE = FunChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +451,7 @@
 		};
 		1E8FA66028B3D50C005F832D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E6249B990036914164AEC4 /* Pods-FunChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +462,9 @@
 				INFOPLIST_FILE = FunChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +500,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1ED38B4C28BA445100D1EB2C /* XCRemoteSwiftPackageReference "CYBase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/canyoldas0/CYBase";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ED38B4D28BA445100D1EB2C /* CYBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED38B4C28BA445100D1EB2C /* XCRemoteSwiftPackageReference "CYBase" */;
+			productName = CYBase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E8FA64228B3D50A005F832D /* Project object */;
 }
