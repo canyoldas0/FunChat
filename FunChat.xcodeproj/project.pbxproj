@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		16B5115A987DC50D076935B1 /* Pods_FunChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E6F254A28BC012C00DBC599 /* SecretKeys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SecretKeys.xcconfig; path = ../SecretKeys.xcconfig; sourceTree = "<group>"; };
+		1E6F254B28BC02DB00DBC599 /* SecretKeys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SecretKeys.xcconfig; sourceTree = "<group>"; };
 		1E8FA64A28B3D50A005F832D /* FunChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8FA64D28B3D50A005F832D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E8FA65628B3D50C005F832D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 				1ED38B4628BA437700D1EB2C /* GoogleService-Info.plist */,
 				1E8FA65628B3D50C005F832D /* Assets.xcassets */,
 				1E8FA65828B3D50C005F832D /* LaunchScreen.storyboard */,
-				1E6F254A28BC012C00DBC599 /* SecretKeys.xcconfig */,
 				1E8FA65B28B3D50C005F832D /* Info.plist */,
+				1E6F254B28BC02DB00DBC599 /* SecretKeys.xcconfig */,
 			);
 			path = FunChat;
 			sourceTree = "<group>";
@@ -310,7 +310,6 @@
 /* Begin XCBuildConfiguration section */
 		1E8FA65C28B3D50C005F832D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E6F254A28BC012C00DBC599 /* SecretKeys.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
